@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fridah's beginner freelance portfolio featuring data entry, graphic design, and proofreading samples.">
+  <title>Fridah | Freelance Portfolio</title>
+  <style>
+    :root { --ink:#172b4d; --muted:#53647a; --blue:#3157a4; --pale:#eef4ff; --white:#fff; --line:#dce5f2; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:#f8faff; line-height:1.65; }
+    header { background:linear-gradient(135deg,#17356f,#4775c9); color:white; padding:22px 6%; }
+    nav { max-width:1080px; margin:auto; display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .brand { font-weight:800; font-size:1.15rem; letter-spacing:.3px; }
+    nav a { color:white; text-decoration:none; margin-left:18px; font-size:.95rem; }
+    nav a:hover { text-decoration:underline; }
+    .hero { max-width:1080px; margin:auto; padding:72px 6% 78px; color:white; }
+    .hero .tag { display:inline-block; border:1px solid #b8ccff; border-radius:999px; padding:5px 13px; font-size:.85rem; background:#ffffff16; }
+    h1 { font-size:clamp(2.25rem,6vw,4rem); line-height:1.1; margin:20px 0 16px; max-width:760px; }
+    .hero p { max-width:650px; color:#e7eeff; font-size:1.1rem; }
+    .button { display:inline-block; margin:12px 10px 0 0; background:white; color:#21468f; padding:12px 19px; border-radius:10px; text-decoration:none; font-weight:700; }
+    .button.outline { background:transparent; border:1px solid #d9e5ff; color:white; }
+    main { max-width:1080px; margin:auto; padding:38px 6% 70px; }
+    section { margin:0 0 54px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:1.5px; color:var(--blue); font-weight:700; font-size:.78rem; }
+    h2 { font-size:clamp(1.7rem,4vw,2.3rem); margin:6px 0 12px; }
+    .intro { max-width:720px; color:var(--muted); }
+    .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(245px,1fr)); gap:18px; margin-top:24px; }
+    .card { background:white; border:1px solid var(--line); border-radius:18px; padding:23px; box-shadow:0 8px 24px #18396c0a; }
+    .number { color:var(--blue); font-weight:800; font-size:.88rem; }
+    .card h3 { margin:7px 0 10px; font-size:1.25rem; }
+    .card p, .card li { color:var(--muted); }
+    .sample { background:var(--pale); border-radius:12px; padding:14px; margin-top:15px; overflow-wrap:anywhere; }
+    table { border-collapse:collapse; width:100%; font-size:.9rem; background:white; }
+    th,td { border:1px solid #d6e1f1; padding:7px; text-align:left; }
+    th { background:#dfeaff; }
+    .total { font-weight:800; }
+    .flyer { background:linear-gradient(135deg,#fff4dc,#f5eaff); text-align:center; padding:22px 14px; border-radius:12px; }
+    .flyer h4 { font-size:1.45rem; margin:5px 0; color:#6b3ca0; }
+    .flyer .services { font-weight:700; color:#354b75; }
+    .before-after { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .before-after div { padding:12px; border-radius:10px; background:#fff; border:1px solid var(--line); }
+    .before-after strong { display:block; margin-bottom:6px; }
+    .skills { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+    .skills span { background:#e8efff; color:#25478d; border-radius:999px; padding:7px 12px; font-size:.9rem; }
+    .contact { background:#eaf1ff; border-radius:20px; padding:28px; }
+    .contact a { color:#21468f; font-weight:700; overflow-wrap:anywhere; }
+    footer { text-align:center; padding:22px 6%; color:var(--muted); border-top:1px solid var(--line); font-size:.9rem; }
+    @media(max-width:600px) { nav { align-items:flex-start; } nav div:last-child { width:100%; } nav a { margin:0 14px 0 0; } .hero { padding-top:48px; } .before-after { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="brand">FRIDAH · FREELANCE PORTFOLIO</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#work">My Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+  <div class="hero">
+    <span class="tag">Beginner Freelancer · Reliable & Detail-Oriented</span>
+    <h1>Helping you keep your work clear, organised, and professional.</h1>
+    <p>I offer support with data entry, spreadsheet organisation, simple promotional designs, and proofreading. Explore my practice samples below.</p>
+    <a class="button" href="#work">View My Samples</a>
+    <a class="button outline" href="#contact">Contact Me</a>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="eyebrow">A little about me</div>
+    <h2>Hello, I'm Fridah.</h2>
+    <p class="intro">I am a student building my freelance experience and portfolio. I value accuracy, clear communication, and delivering neat work on time. The examples on this page are practice samples created to demonstrate my skills; the products and business shown are fictional.</p>
+    <div class="skills">
+      <span>Data Entry</span><span>Google Sheets / Excel Basics</span><span>Canva Flyer Design</span><span>Proofreading</span><span>Document Formatting</span>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="eyebrow">Portfolio samples</div>
+    <h2>Selected Practice Work</h2>
+    <p class="intro">These sample projects show the type of work I can help with. I am happy to discuss a client's specific instructions before starting.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="number">01 · DATA ENTRY</div>
+        <h3>Spreadsheet Sample</h3>
+        <p>A tidy sample product list with quantities, prices, and calculated totals.</p>
+        <div class="sample">
+          <table>
+            <thead><tr><th>Product</th><th>Qty</th><th>Price</th><th>Total</th></tr></thead>
+            <tbody>
+              <tr><td>Exercise Books</td><td>10</td><td>KSh 50</td><td>KSh 500</td></tr>
+              <tr><td>Pens</td><td>20</td><td>KSh 15</td><td>KSh 300</td></tr>
+              <tr><td>School Bags</td><td>5</td><td>KSh 800</td><td>KSh 4,000</td></tr>
+              <tr><td>Pencils</td><td>15</td><td>KSh 10</td><td>KSh 150</td></tr>
+              <tr class="total"><td colspan="3">Grand Total</td><td>KSh 4,950</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Skills shown:</strong> organising information, consistent formatting, checking entries, and basic calculations.</p>
+      </article>
+
+      <article class="card">
+        <div class="number">02 · GRAPHIC DESIGN</div>
+        <h3>Promotional Flyer</h3>
+        <p>A simple promotional concept for a fictional design business.</p>
+        <div class="sample flyer">
+          <div>✨ CREATIVE SERVICES ✨</div>
+          <h4>NDANU DESIGNS</h4>
+          <p>Creative designs for your business!</p>
+          <div class="services">POSTERS · FLYERS · BUSINESS CARDS<br>SOCIAL MEDIA GRAPHICS</div>
+          <p>Affordable prices | Quality designs</p>
+          <small>Contact: Add your business number</small>
+        </div>
+        <p><strong>Skills shown:</strong> clear headlines, readable layout, service presentation, and promotional copy.</p>
+      </article>
+
+      <article class="card">
+        <div class="number">03 · PROOFREADING</div>
+        <h3>Before-and-After Editing</h3>
+        <p>A short example of grammar, spelling, and readability improvements.</p>
+        <div class="sample before-after">
+          <div><strong>Before</strong>The customer were happy with the service because the workers was friendly. They recieve their products on time.</div>
+          <div><strong>After</strong>The customers were happy with the service because the workers were friendly. They received their products on time.</div>
+        </div>
+        <p><strong>Skills shown:</strong> correcting grammar, spelling, and agreement while keeping the original meaning.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">How I work</div>
+    <h2>Simple, dependable support</h2>
+    <div class="cards">
+      <div class="card"><h3>1. Understand</h3><p>I review the instructions and ask questions if anything is unclear.</p></div>
+      <div class="card"><h3>2. Complete</h3><p>I work carefully and check the details before handing over the task.</p></div>
+      <div class="card"><h3>3. Communicate</h3><p>I keep the client updated and make reasonable corrections based on agreed instructions.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div class="eyebrow">Let's work together</div>
+      <h2>Have a task in mind?</h2>
+      <p>Contact me to discuss data entry, simple flyer design, or proofreading work.</p>
+      <p><strong>Email:</strong> <a href="mailto:fridahndanu481@gmail.com">fridahndanu481@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+254703325651">0703325651</a></p>
+      <p><small>Note: These are the contact details supplied for this portfolio. Replace them if you want to use different details publicly.</small></p>
+    </div>
+  </section>
+</main>
+<footer>© <span id="year"></span> Fridah · Freelance Portfolio · Practice samples for demonstration</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
